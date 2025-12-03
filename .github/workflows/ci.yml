@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - hw14-node-js
   pull_request:
     branches:
       - main
+      - hw14-node-js
 
 jobs:
   build:
